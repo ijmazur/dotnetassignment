@@ -25,8 +25,17 @@ public class SchedulerController : Controller
     [ValidateAntiForgeryToken]
     public IActionResult Create(Scheduler obj)
     {
-        _db.Schedulers.Add(obj);
-        _db.SaveChanges();
-        return RedirectToAction("Index");
+        if (obj.Name == obj.Description.ToString())
+        {
+            ModelState.AddModelError("Name", "The description cant exactl match the name of the task, please be more insightful");
+        }
+        
+        if (ModelState.IsValid)
+        {
+            _db.Schedulers.Add(obj);
+            _db.SaveChanges();
+            return RedirectToAction("Index");
+        }
+        return View();
     }
 }
