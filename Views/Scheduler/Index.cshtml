@@ -21,7 +21,7 @@
             </a>
         </div>
     </div>
-    <table class="table table-bordered table-striped" style="width:100%">
+    <table class="table table-bordered table-striped table-dark" style="width:100%">
         <thead>
         <tr>
             <th>
@@ -49,6 +49,13 @@
 
                 <td width="30%">
                     @obj.Description
+                </td>
+                <td width="10%">
+                    @* @Html.TextBoxFor(m => m.StartOfTask, "{0:dd/MM/yyyy}") *@
+                    @obj.StartOfTask
+                </td>
+                <td width="10%">
+                    @obj.EndOfTask
                 </td>
                 <td>
                     <div class="w-75 btn-group" role="group">

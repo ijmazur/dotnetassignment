@@ -15,6 +15,14 @@
             <label asp-for="Description"></label>
             <input asp-for="Description" disabled class="form-control"/>
         </div>
+        <div class="mb-3">
+            <label asp-for="StartOfTask"></label>
+            <input asp-for="StartOfTask" disabled class="form-control"/>
+        </div>
+        <div class="mb-3">
+            <label asp-for="EndOfTask"></label>
+            <input asp-for="EndOfTask" disabled class="form-control"/>
+        </div>
         <button type="submit" class="btn btn-danger" style="width:150px">Delete</button>
         <a asp-controller="Scheduler" asp-action="Index" class="btn btn-secondary" style="width:150px">
             Return

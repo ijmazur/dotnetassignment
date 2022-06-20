@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "lOYpEUT6+wzJX/M24wv5IFvdG2zME1nDOcaD65UEzHo=",
+  "Hash": "FSf+niYF9wXgP4j4yANIZu7mCZCvQxOoHtTK6Tn5DoU=",
   "Source": "dotnet",
   "BasePath": "_content/dotnet",
   "Mode": "Default",
@@ -1103,6 +1103,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
+    },
+    {
+      "Identity": "D:\\csharp\\dotnetassignment\\dotnet\\wwwroot\\did-not-click.jpg",
+      "SourceId": "dotnet",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\csharp\\dotnetassignment\\dotnet\\wwwroot\\",
+      "BasePath": "_content/dotnet",
+      "RelativePath": "did-not-click.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\did-not-click.jpg"
     },
     {
       "Identity": "D:\\csharp\\dotnetassignment\\dotnet\\wwwroot\\favicon.ico",
