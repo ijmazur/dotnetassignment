@@ -6637,19 +6637,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\igorm\\.nuget\\packages\\": {}
+    "C:\\Users\\mazuri\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\csharp\\dotnetassignment\\dotnet\\dotnet.csproj",
+      "projectUniqueName": "C:\\Users\\mazuri\\Source\\repos\\dotnetassignment\\dotnet.csproj",
       "projectName": "dotnet",
-      "projectPath": "D:\\csharp\\dotnetassignment\\dotnet\\dotnet.csproj",
-      "packagesPath": "C:\\Users\\igorm\\.nuget\\packages\\",
-      "outputPath": "D:\\csharp\\dotnetassignment\\dotnet\\obj\\",
+      "projectPath": "C:\\Users\\mazuri\\Source\\repos\\dotnetassignment\\dotnet.csproj",
+      "packagesPath": "C:\\Users\\mazuri\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\mazuri\\Source\\repos\\dotnetassignment\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\igorm\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\mazuri\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
@@ -6734,7 +6734,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
       }
     }
   }

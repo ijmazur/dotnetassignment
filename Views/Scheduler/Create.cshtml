@@ -1,0 +1,33 @@
+@model Scheduler
+
+<form method="post">
+    <div class="border p-3 mt-4">
+        <div class="row pb-2">
+            <h2 class="text-primary">Create Task</h2>
+            <hr/>
+        </div>
+        <div class="mb-3">
+            <label asp-for="Name">Task Name</label>
+            <input asp-for="Name" class="form-control" />
+        </div>
+        <div class="mb-3">
+            <label asp-for="Description">Description of the Task</label>
+            <input asp-for="Name" class="form-control" />
+        </div>
+        <button type="submit" class="btn btn-primary" style="width:150px">Create</button>
+        <a asp-controller="Scheduler" asp-action="Index" class="btn btn-secondary" style="width:150px">
+            Return
+        </a>
+    </div>
+</form>
+
+@* *@
+@* <div class="mb-3"> *@
+@*             <label asp-for="StartOfTask">Start of the Task</label> *@
+@*             <input asp-for="Name" class="form-control" /> *@
+@*         </div> *@
+@*         <div class="mb-3"> *@
+@*             <label asp-for="EndOfTask">End of the Task</label> *@
+@*             <input asp-for="Name" class="form-control" /> *@
+@*         </div> *@
+
