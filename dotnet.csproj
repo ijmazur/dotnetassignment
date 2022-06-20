@@ -8,10 +8,6 @@
     </PropertyGroup>
 
     <ItemGroup>
-        <None Update="app.db" CopyToOutputDirectory="PreserveNewest" ExcludeFromSingleFile="true" />
-    </ItemGroup>
-
-    <ItemGroup>
         <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="6.0.6" />
         <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="6.0.6" />
         <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="6.0.6" />
@@ -25,6 +21,11 @@
         <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer.Design" Version="1.1.6" />
         <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="6.0.6" />
         <PackageReference Include="Microsoft.EntityFrameworkCore.Tools.DotNet" Version="2.0.3" />
+        <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="6.0.6" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <_ContentIncludedByDefault Remove="Views\Category\Index.cshtml" />
     </ItemGroup>
 
 </Project>

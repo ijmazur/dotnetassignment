@@ -3,9 +3,9 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 #nullable disable
 
-namespace dotnet.Data.Migrations
+namespace dotnet.Migrations
 {
-    public partial class AddScheduler : Migration
+    public partial class ProstoDb : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {

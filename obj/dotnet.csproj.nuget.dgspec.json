@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\mazuri\\Source\\repos\\dotnetassignment\\dotnet.csproj": {}
+    "D:\\csharp\\dotnetassignment\\dotnet\\dotnet.csproj": {}
   },
   "projects": {
-    "C:\\Users\\mazuri\\Source\\repos\\dotnetassignment\\dotnet.csproj": {
+    "D:\\csharp\\dotnetassignment\\dotnet\\dotnet.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mazuri\\Source\\repos\\dotnetassignment\\dotnet.csproj",
+        "projectUniqueName": "D:\\csharp\\dotnetassignment\\dotnet\\dotnet.csproj",
         "projectName": "dotnet",
-        "projectPath": "C:\\Users\\mazuri\\Source\\repos\\dotnetassignment\\dotnet.csproj",
-        "packagesPath": "C:\\Users\\mazuri\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mazuri\\Source\\repos\\dotnetassignment\\obj\\",
+        "projectPath": "D:\\csharp\\dotnetassignment\\dotnet\\dotnet.csproj",
+        "packagesPath": "C:\\Users\\igorm\\.nuget\\packages\\",
+        "outputPath": "D:\\csharp\\dotnetassignment\\dotnet\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\mazuri\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\igorm\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -79,6 +79,10 @@
             "Microsoft.EntityFrameworkCore.Tools.DotNet": {
               "target": "Package",
               "version": "[2.0.3, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[6.0.6, )"
             }
           },
           "imports": [
@@ -99,7 +103,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
         }
       }
     }
